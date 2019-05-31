@@ -1,10 +1,11 @@
 
 import random as r
 arr = []
-for i in range(100):
+for i in range(50):
     arr.append(r.randint(1,1000))
-exercise = arr[0]
 print(arr)
+exercise = arr[0]
+
 k = 0
 for j in range(0, len(arr) ,1):
     if exercise > arr[j] :
